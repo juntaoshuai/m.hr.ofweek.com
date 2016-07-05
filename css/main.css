@@ -151,3 +151,57 @@ ins, a { text-decoration: none }
 	margin:0 -.24rem;
 	padding-bottom: .12rem;
 }
+
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_1467726824_8389168.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/font_1467726824_8389168.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/font_1467726824_8389168.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/font_1467726824_8389168.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/font_1467726824_8389168.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+                    
+                                    
+                    
+                    
+                    
+
+#footer nav{
+	background: #c70000;
+	height: .8rem;
+	line-height: .8rem;
+}
+#footer li{
+	float: left;
+	text-align: center;
+}
+#footer li:nth-child(1):after,#footer li:nth-child(2):after{
+	content: "|";
+	color: #cf9393;
+}
+#footer li a{
+	font-size: .3rem;
+	color:#fff;
+    margin: .1rem .14rem 0;	
+}
+.ifont-home,.ifont-top{
+	font-family:iconfont;
+	font-size: .31rem;
+	background: rgba(227,128,128,.25);
+	width: .6rem;
+	height: .6rem;
+	line-height: .6rem;;
+	display: block;
+	margin-top: .1rem;
+	text-align: center;
+
+}
+#footer p{
+	font-family: iconfont;
+	font-size: .3rem;
+}
+
+.footer-info{
+	background: #272727;
+}
